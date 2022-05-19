@@ -1,11 +1,12 @@
-import { Link } from 'react-router-dom'
+import ImageHeader from './ImageHeader'
+import NavbarHeader from './NavbarHeader'
 
 function Header() {
   return (
-    <div>
-      <p>Header</p>
-      <Link to="#">Tes</Link>
-    </div>
+    <>
+      <NavbarHeader />
+      <ImageHeader />
+    </>
   )
 }
 
