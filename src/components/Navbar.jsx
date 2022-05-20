@@ -42,7 +42,7 @@ function Navbar() {
         <div className="dropdown bg-light ms-auto">
           <button
             type="button"
-            class="btn dropdown-toggle py-0"
+            className="btn dropdown-toggle py-0"
             data-bs-toggle="dropdown"
             style={{ fontWeight: '500' }}
           >

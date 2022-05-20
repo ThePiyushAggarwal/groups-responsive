@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "name": "Sarthak Kamra",
+    "profilePicture": "./assets/images/card-one-profile.png",
+    "mainImage": "./assets/images/card-one-image.png",
+    "categoryEmoji": "✍ ",
+    "category": "Article",
+    "title": "What if famous brands had regular fonts? Meet RegulaBrands!",
+    "content": "I’ve worked in UX for the better part of a decade. From now on, I plan to rei…",
+    "views": "1.4k"
+  },
+  {
+    "id": 2,
+    "name": "Sarah West",
+    "profilePicture": "./assets/images/card-two-profile.png",
+    "mainImage": "./assets/images/card-two-image.png",
+    "categoryEmoji": "🔬 ",
+    "category": "Education",
+    "title": "Tax Benefits for Investment under National Pension Scheme launched by Government",
+    "content": "I’ve worked in UX for the better part of a decade. From now on, I plan to rei…",
+    "views": "3.4k"
+  },
+  {
+    "id": 3,
+    "name": "Ronal Jones",
+    "profilePicture": "./assets/images/card-three-profile.png",
+    "mainImage": "./assets/images/card-three-image.png",
+    "categoryEmoji": "📆 ",
+    "category": "Meetup",
+    "title": "Finance & Investment Elite Social Mixer @Lujiazui",
+    "date": "Fri, 12 Oct, 2021",
+    "location": "Ahmedabad",
+    "link": "/",
+    "views": "6.2k"
+  },
+  {
+    "id": 4,
+    "name": "Joseph Gray",
+    "profilePicture": "./assets/images/card-four-profile.png",
+    "categoryEmoji": "💼 ",
+    "category": "Jobs",
+    "title": "Software Developer",
+    "company": "Banao Technologies Ltd.",
+    "location": "Chandigarh",
+    "link": "/",
+    "views": "364"
+  }
+]

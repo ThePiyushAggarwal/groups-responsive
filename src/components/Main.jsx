@@ -1,8 +1,16 @@
+import Content from './Content'
+import Aside from './Aside'
+
 function Main() {
   return (
-    <div>
-      <p>Main</p>
-    </div>
+    <>
+      <div className="container">
+        <div className="row justify-content-between">
+          <Content />
+          <Aside />
+        </div>
+      </div>
+    </>
   )
 }
 

@@ -1,11 +1,11 @@
-import ImageHeader from './ImageHeader'
-import NavbarHeader from './NavbarHeader'
+import HeaderImage from './HeaderImage'
+import HeaderNavbar from './HeaderNavbar'
 
 function Header() {
   return (
     <>
-      <NavbarHeader />
-      <ImageHeader />
+      <HeaderNavbar />
+      <HeaderImage />
     </>
   )
 }
