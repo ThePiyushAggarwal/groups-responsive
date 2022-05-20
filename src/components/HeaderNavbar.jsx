@@ -37,7 +37,12 @@ function HeaderNavbar() {
         {/* Header right side */}
         <div>
           <span style={{ fontWeight: '500' }}>Create account.</span>
-          <Link to="/" className="text-decoration-none">
+          <Link
+            to="#"
+            data-bs-target="#signup"
+            className="text-decoration-none"
+            data-bs-toggle="modal"
+          >
             <span style={{ fontWeight: '700' }}> It’s free!</span>
             <span className="text-dark">
               <FaCaretDown />

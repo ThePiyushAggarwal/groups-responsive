@@ -1,4 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import SignInModal from './components/SignInModal'
+import SignUpModal from './components/SignUpModal'
 import Home from './pages/Home'
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
+        <SignInModal />
+        <SignUpModal />
       </BrowserRouter>
     </>
   )
