@@ -1,5 +1,6 @@
 import { MdOutlineLocationOn, MdEdit } from 'react-icons/md'
 import { AiOutlineExclamationCircle } from 'react-icons/ai'
+import RecommendedGroups from './RecommendedGroups'
 
 function Aside() {
   return (
@@ -15,6 +16,7 @@ function Aside() {
         </div>
       </div>
       <hr />
+      {/* Location Message */}
       <div className="d-flex text-muted" style={{ fontSize: '0.75rem' }}>
         <div className="py-0 px-2">
           <AiOutlineExclamationCircle />
@@ -24,6 +26,8 @@ function Aside() {
           experience.
         </div>
       </div>
+      {/* Recommended Groups */}
+      <RecommendedGroups />
     </div>
   )
 }

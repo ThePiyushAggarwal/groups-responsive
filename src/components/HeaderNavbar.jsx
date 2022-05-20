@@ -11,7 +11,7 @@ function HeaderNavbar() {
           <img src={logo} alt="Logo" />
         </Link>
         {/* Header Search */}
-        <form id="search-bar" className="col-sm-4">
+        <form id="search-bar" className="col-sm-5 col-xl-4">
           <div className="input-group">
             <button
               type="button"

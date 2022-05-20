@@ -1,7 +1,7 @@
-import { BsThreeDots } from 'react-icons/bs'
 import CardFooter from './CardFooter'
 import CardJobs from './CardJobs'
 import CardMeetup from './CardMeetup'
+import CardMenu from './CardMenu'
 
 function Card({ data }) {
   return (
@@ -31,11 +31,7 @@ function Card({ data }) {
         {/* Title */}
         <div className="d-flex justify-content-between mt-3 card-title">
           <h4 className="fw-bold">{data.title}</h4>
-          <div>
-            <button className="btn">
-              <BsThreeDots className="fs-4" />
-            </button>
-          </div>
+          <CardMenu />
         </div>
         {data.content && (
           <div className="card-text">

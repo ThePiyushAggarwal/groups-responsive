@@ -9,13 +9,13 @@ function CardJobs({ data }) {
         style={{ fontWeight: '600', fontSize: '0.95rem' }}
       >
         <div className="me-5">
-          <span className="fw-semibold fs-5 ">
+          <span className="fw-semibold fs-5">
             <BsBriefcase />
           </span>{' '}
           {data.company}
         </div>
         <div>
-          <span className="fw-semibold fs-5 ">
+          <span className="fw-semibold fs-5">
             <MdOutlineLocationOn />
           </span>
           {data.location}, India
