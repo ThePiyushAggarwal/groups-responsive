@@ -11,8 +11,8 @@ function NavbarHeader() {
           <img src={logo} alt="Logo" />
         </Link>
         {/* Header Search */}
-        <form id="search-bar">
-          <div className="input-group" style={{ width: '360px' }}>
+        <form id="search-bar" className="col-sm-4">
+          <div className="input-group">
             <button
               type="button"
               className="input-group-text bg-light border-end-0"
@@ -35,7 +35,7 @@ function NavbarHeader() {
           </div>
         </form>
         {/* Header right side */}
-        <div style={{ fontSize: '1rem' }}>
+        <div>
           <span style={{ fontWeight: '500' }}>Create account.</span>
           <Link to="/" className="text-decoration-none">
             <span style={{ fontWeight: '700' }}> It’s free!</span>

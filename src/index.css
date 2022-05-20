@@ -3,9 +3,3 @@
 body {
   font-family: 'IBM Plex Sans', sans-serif;
 }
-
-/* Navbar Search Bar Placeholder styles */
-nav form input::placeholder {
-  font-weight: 500;
-  font-size: 14px;
-}
