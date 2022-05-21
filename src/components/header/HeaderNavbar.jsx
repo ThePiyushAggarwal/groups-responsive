@@ -4,7 +4,7 @@ import { FaSearch, FaCaretDown } from 'react-icons/fa'
 
 function HeaderNavbar() {
   return (
-    <nav className="navbar navbar-expand-md d-none d-md-block">
+    <nav className="navbar d-none d-md-block">
       <div className="container-lg">
         {/* Header Logo */}
         <Link to="/" className="navbar-brand">

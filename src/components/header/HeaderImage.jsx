@@ -37,7 +37,14 @@ function HeaderImage() {
               </div>
 
               <div>
-                <button className="btn text-white border">Join Group</button>
+                <button
+                  className="btn text-white border"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#signupoffcanvas"
+                >
+                  Join Group
+                </button>
               </div>
             </div>
 

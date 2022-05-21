@@ -100,7 +100,7 @@ function SignUpModal() {
                     >
                       <img src={googleIcon} alt="Sign up with Google" />
                     </span>
-                    Sign in with Google
+                    Sign up with Google
                   </button>
                 </div>
                 {/* Art */}
