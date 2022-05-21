@@ -3,3 +3,22 @@
 body {
   font-family: 'IBM Plex Sans', sans-serif;
 }
+
+/* Search bar */
+@media (max-width: 830px) {
+  form#search-bar input {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-media-query {
+    min-width: 734px;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal-media-query {
+    display: none;
+  }
+}

@@ -1,17 +1,17 @@
 import { Link } from 'react-router-dom'
-import logo from '../images/icons/logo/brand-logo.png'
+import logo from '../../images/icons/logo/brand-logo.png'
 import { FaSearch, FaCaretDown } from 'react-icons/fa'
 
 function HeaderNavbar() {
   return (
-    <nav className="navbar navbar-expand-sm">
-      <div className="container">
+    <nav className="navbar navbar-expand-md d-none d-md-block">
+      <div className="container-lg">
         {/* Header Logo */}
         <Link to="/" className="navbar-brand">
           <img src={logo} alt="Logo" />
         </Link>
         {/* Header Search */}
-        <form id="search-bar" className="col-sm-5 col-xl-4">
+        <form id="search-bar" className="col-md-5 col-xl-4">
           <div className="input-group">
             <button
               type="button"
@@ -25,7 +25,7 @@ function HeaderNavbar() {
             </button>
             <input
               type="text"
-              className="bg-light form-control border-start-0"
+              className="bg-light form-control border-start-0 ps-0"
               placeholder="Search for your favorite groups in ATG"
               style={{
                 borderTopRightRadius: '30px',

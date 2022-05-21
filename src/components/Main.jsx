@@ -4,8 +4,8 @@ import Aside from './Aside'
 function Main() {
   return (
     <>
-      <div className="container">
-        <div className="row justify-content-between">
+      <div className="container-lg">
+        <div className="row justify-content-between g-0">
           <Content />
           <Aside />
         </div>

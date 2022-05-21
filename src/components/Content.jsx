@@ -3,7 +3,7 @@ import mockData from '../mock-data/data.json'
 
 function Content() {
   return (
-    <div className="col-sm-8 mt-3">
+    <div className="col-md-8 mt-3">
       {mockData.map((data) => (
         <Card data={data} key={data.id} />
       ))}

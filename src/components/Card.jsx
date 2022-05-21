@@ -1,7 +1,7 @@
-import CardFooter from './CardFooter'
-import CardJobs from './CardJobs'
-import CardMeetup from './CardMeetup'
-import CardMenu from './CardMenu'
+import CardFooter from './card/CardFooter'
+import CardJobs from './card/CardJobs'
+import CardMeetup from './card/CardMeetup'
+import CardMenu from './card/CardMenu'
 
 function Card({ data }) {
   return (

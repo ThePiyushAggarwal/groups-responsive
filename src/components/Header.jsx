@@ -1,5 +1,5 @@
-import HeaderImage from './HeaderImage'
-import HeaderNavbar from './HeaderNavbar'
+import HeaderImage from './header/HeaderImage'
+import HeaderNavbar from './header/HeaderNavbar'
 
 function Header() {
   return (

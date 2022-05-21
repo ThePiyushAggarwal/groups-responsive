@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import SignInModal from './components/SignInModal'
-import SignUpModal from './components/SignUpModal'
+import SignInModal from './components/modals/SignInModal'
+import SignUpModal from './components/modals/SignUpModal'
 import Home from './pages/Home'
 
 function App() {

@@ -1,10 +1,10 @@
 import { MdOutlineLocationOn, MdEdit } from 'react-icons/md'
 import { AiOutlineExclamationCircle } from 'react-icons/ai'
-import RecommendedGroups from './RecommendedGroups'
+import RecommendedGroups from './aside/RecommendedGroups'
 
 function Aside() {
   return (
-    <div className="col-sm-3 mt-5">
+    <div className="col-md-3 mt-5 d-none d-md-block">
       {/* Location */}
       <div className="d-flex justify-content-between">
         <div>
